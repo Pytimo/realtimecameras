@@ -2,13 +2,45 @@
 Introduction
 ============
 
-This is the source code accompaniment to the book "Real Time Cameras" by Mark Haigh-Hutchinson.
+This is the source code accompaniment to the book "Real Time Cameras" by Mark 
+Haigh-Hutchinson.
 
 It's official home is hosted at Google Code here:
 http://code.google.com/p/realtimecameras/
 
 The web site for the book is:
 http://www.realtimecameras.com
+
+====================
+Building and Running
+====================
+
+Windows
+-------
+
+To set up the RTC Environment:
+* Grab the code from Google Code.  It is assumed it is in C:\RTC
+* Install the newest Ogre32 SDK from http://www.ogre3d.org
+* If you want to open Microsoft Visual Studio 2005 or Visual Studio Express, 
+  run C:\RTC\Win32\rtc_vs2005.bat
+* If you want to open a command prompt with the proper environment, run 
+  C:\RTC\Win32\rtc_cmd.bat
+
+Sample locations:
+* C:\RTC\demo\parameters\build\msvc8e
+* C:\RTC\demo\sample_00\build\msvc8e
+
+Mac
+---
+
+NOTE: Mac has not been fully tested
+
+To set up the RTC Environment:
+* Grab the code from Google Code.
+* Install the newest Ogre32 SDK from http://www.ogre3d.org
+* In XCode's Source Trees, set the following:
+** OGRE_HOME - Installation path of OGRE
+** RTC_PATH - Path of where you put the "Real Time Cameras" code
 
 =======
 License
