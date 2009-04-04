@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A182AFD30F02DC2D007B68D5 /* crtcapplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFCF0F02DC2D007B68D5 /* crtcapplication.cpp */; };
+		A182AFD40F02DC2D007B68D5 /* crtcapplication.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFD00F02DC2D007B68D5 /* crtcapplication.h */; };
+		A182AFD50F02DC2D007B68D5 /* crtcframelistener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFD10F02DC2D007B68D5 /* crtcframelistener.cpp */; };
+		A182AFD60F02DC2D007B68D5 /* crtcframelistener.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFD20F02DC2D007B68D5 /* crtcframelistener.h */; };
+		A182AFE10F02DC4F007B68D5 /* ccamerahint.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFD80F02DC4F007B68D5 /* ccamerahint.h */; };
+		A182AFE20F02DC4F007B68D5 /* ccamerahintmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFD90F02DC4F007B68D5 /* ccamerahintmanager.h */; };
+		A182AFE30F02DC4F007B68D5 /* ccameramanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFDA0F02DC4F007B68D5 /* ccameramanager.cpp */; };
+		A182AFE40F02DC4F007B68D5 /* ccameramanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFDB0F02DC4F007B68D5 /* ccameramanager.h */; };
+		A182AFE50F02DC4F007B68D5 /* ccamerashakemanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFDC0F02DC4F007B68D5 /* ccamerashakemanager.h */; };
+		A182AFE60F02DC4F007B68D5 /* cfirstpersoncamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFDD0F02DC4F007B68D5 /* cfirstpersoncamera.cpp */; };
+		A182AFE70F02DC4F007B68D5 /* cfirstpersoncamera.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFDE0F02DC4F007B68D5 /* cfirstpersoncamera.h */; };
+		A182AFE80F02DC4F007B68D5 /* cgamecamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFDF0F02DC4F007B68D5 /* cgamecamera.cpp */; };
+		A182AFE90F02DC4F007B68D5 /* cgamecamera.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFE00F02DC4F007B68D5 /* cgamecamera.h */; };
+		A182AFF30F02DCF2007B68D5 /* cgameentity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFF10F02DCF2007B68D5 /* cgameentity.cpp */; };
+		A182AFF40F02DCF2007B68D5 /* cgameentity.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFF20F02DCF2007B68D5 /* cgameentity.h */; };
+		A182AFFA0F02DD05007B68D5 /* ccontrolmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFF50F02DD05007B68D5 /* ccontrolmanager.cpp */; };
+		A182AFFB0F02DD05007B68D5 /* ccontrolmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFF60F02DD05007B68D5 /* ccontrolmanager.h */; };
+		A182AFFC0F02DD05007B68D5 /* cinputmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFF70F02DD05007B68D5 /* cinputmanager.cpp */; };
+		A182AFFD0F02DD05007B68D5 /* cinputmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFF80F02DD05007B68D5 /* cinputmanager.h */; };
+		A182AFFE0F02DD05007B68D5 /* scontrollerdata.h in Headers */ = {isa = PBXBuildFile; fileRef = A182AFF90F02DD05007B68D5 /* scontrollerdata.h */; };
+		A182B0010F02DD2E007B68D5 /* crendermanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182AFFF0F02DD2E007B68D5 /* crendermanager.cpp */; };
+		A182B0020F02DD2E007B68D5 /* crendermanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182B0000F02DD2E007B68D5 /* crendermanager.h */; };
+		A182B0040F02DD3F007B68D5 /* rtc_types.h in Headers */ = {isa = PBXBuildFile; fileRef = A182B0030F02DD3F007B68D5 /* rtc_types.h */; };
+		A182B0090F02DD4F007B68D5 /* cviewport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182B0050F02DD4F007B68D5 /* cviewport.cpp */; };
+		A182B00A0F02DD4F007B68D5 /* cviewport.h in Headers */ = {isa = PBXBuildFile; fileRef = A182B0060F02DD4F007B68D5 /* cviewport.h */; };
+		A182B00B0F02DD4F007B68D5 /* cviewportmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A182B0070F02DD4F007B68D5 /* cviewportmanager.cpp */; };
+		A182B00C0F02DD4F007B68D5 /* cviewportmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = A182B0080F02DD4F007B68D5 /* cviewportmanager.h */; };
+		D2AAC0700554677100DB518D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB77AAFE841565C02AAC07 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08FB77AAFE841565C02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		32BAE0B70371A74B00C91783 /* rtc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtc_Prefix.pch; sourceTree = "<group>"; };
+		A182AFCF0F02DC2D007B68D5 /* crtcapplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crtcapplication.cpp; path = ../../system/crtcapplication.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFD00F02DC2D007B68D5 /* crtcapplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crtcapplication.h; path = ../../system/crtcapplication.h; sourceTree = SOURCE_ROOT; };
+		A182AFD10F02DC2D007B68D5 /* crtcframelistener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crtcframelistener.cpp; path = ../../system/crtcframelistener.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFD20F02DC2D007B68D5 /* crtcframelistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crtcframelistener.h; path = ../../system/crtcframelistener.h; sourceTree = SOURCE_ROOT; };
+		A182AFD80F02DC4F007B68D5 /* ccamerahint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccamerahint.h; path = ../../camera/ccamerahint.h; sourceTree = SOURCE_ROOT; };
+		A182AFD90F02DC4F007B68D5 /* ccamerahintmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccamerahintmanager.h; path = ../../camera/ccamerahintmanager.h; sourceTree = SOURCE_ROOT; };
+		A182AFDA0F02DC4F007B68D5 /* ccameramanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ccameramanager.cpp; path = ../../camera/ccameramanager.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFDB0F02DC4F007B68D5 /* ccameramanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccameramanager.h; path = ../../camera/ccameramanager.h; sourceTree = SOURCE_ROOT; };
+		A182AFDC0F02DC4F007B68D5 /* ccamerashakemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccamerashakemanager.h; path = ../../camera/ccamerashakemanager.h; sourceTree = SOURCE_ROOT; };
+		A182AFDD0F02DC4F007B68D5 /* cfirstpersoncamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cfirstpersoncamera.cpp; path = ../../camera/cfirstpersoncamera.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFDE0F02DC4F007B68D5 /* cfirstpersoncamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cfirstpersoncamera.h; path = ../../camera/cfirstpersoncamera.h; sourceTree = SOURCE_ROOT; };
+		A182AFDF0F02DC4F007B68D5 /* cgamecamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cgamecamera.cpp; path = ../../camera/cgamecamera.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFE00F02DC4F007B68D5 /* cgamecamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cgamecamera.h; path = ../../camera/cgamecamera.h; sourceTree = SOURCE_ROOT; };
+		A182AFF10F02DCF2007B68D5 /* cgameentity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cgameentity.cpp; path = ../../game/cgameentity.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFF20F02DCF2007B68D5 /* cgameentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cgameentity.h; path = ../../game/cgameentity.h; sourceTree = SOURCE_ROOT; };
+		A182AFF50F02DD05007B68D5 /* ccontrolmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ccontrolmanager.cpp; path = ../../input/ccontrolmanager.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFF60F02DD05007B68D5 /* ccontrolmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccontrolmanager.h; path = ../../input/ccontrolmanager.h; sourceTree = SOURCE_ROOT; };
+		A182AFF70F02DD05007B68D5 /* cinputmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cinputmanager.cpp; path = ../../input/cinputmanager.cpp; sourceTree = SOURCE_ROOT; };
+		A182AFF80F02DD05007B68D5 /* cinputmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cinputmanager.h; path = ../../input/cinputmanager.h; sourceTree = SOURCE_ROOT; };
+		A182AFF90F02DD05007B68D5 /* scontrollerdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scontrollerdata.h; path = ../../input/scontrollerdata.h; sourceTree = SOURCE_ROOT; };
+		A182AFFF0F02DD2E007B68D5 /* crendermanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crendermanager.cpp; path = ../../render/crendermanager.cpp; sourceTree = SOURCE_ROOT; };
+		A182B0000F02DD2E007B68D5 /* crendermanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crendermanager.h; path = ../../render/crendermanager.h; sourceTree = SOURCE_ROOT; };
+		A182B0030F02DD3F007B68D5 /* rtc_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtc_types.h; path = ../../types/rtc_types.h; sourceTree = SOURCE_ROOT; };
+		A182B0050F02DD4F007B68D5 /* cviewport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cviewport.cpp; path = ../../viewport/cviewport.cpp; sourceTree = SOURCE_ROOT; };
+		A182B0060F02DD4F007B68D5 /* cviewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cviewport.h; path = ../../viewport/cviewport.h; sourceTree = SOURCE_ROOT; };
+		A182B0070F02DD4F007B68D5 /* cviewportmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cviewportmanager.cpp; path = ../../viewport/cviewportmanager.cpp; sourceTree = SOURCE_ROOT; };
+		A182B0080F02DD4F007B68D5 /* cviewportmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cviewportmanager.h; path = ../../viewport/cviewportmanager.h; sourceTree = SOURCE_ROOT; };
+		D2AAC06F0554671400DB518D /* librtc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC06D0554671400DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AAC0700554677100DB518D /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC06F0554671400DB518D /* librtc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* rtc */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = rtc;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AAFE841565C02AAC07 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFD70F02DC34007B68D5 /* camera */,
+				A182AFEA0F02DC74007B68D5 /* game */,
+				A182AFEB0F02DC7B007B68D5 /* input */,
+				A182AFCE0F02DC00007B68D5 /* system */,
+				A182AFEE0F02DC8A007B68D5 /* render */,
+				A182AFEF0F02DC91007B68D5 /* types */,
+				A182AFF00F02DCC0007B68D5 /* viewport */,
+				32BAE0B70371A74B00C91783 /* rtc_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A182AFCE0F02DC00007B68D5 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFCF0F02DC2D007B68D5 /* crtcapplication.cpp */,
+				A182AFD00F02DC2D007B68D5 /* crtcapplication.h */,
+				A182AFD10F02DC2D007B68D5 /* crtcframelistener.cpp */,
+				A182AFD20F02DC2D007B68D5 /* crtcframelistener.h */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		A182AFD70F02DC34007B68D5 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFD80F02DC4F007B68D5 /* ccamerahint.h */,
+				A182AFD90F02DC4F007B68D5 /* ccamerahintmanager.h */,
+				A182AFDA0F02DC4F007B68D5 /* ccameramanager.cpp */,
+				A182AFDB0F02DC4F007B68D5 /* ccameramanager.h */,
+				A182AFDC0F02DC4F007B68D5 /* ccamerashakemanager.h */,
+				A182AFDD0F02DC4F007B68D5 /* cfirstpersoncamera.cpp */,
+				A182AFDE0F02DC4F007B68D5 /* cfirstpersoncamera.h */,
+				A182AFDF0F02DC4F007B68D5 /* cgamecamera.cpp */,
+				A182AFE00F02DC4F007B68D5 /* cgamecamera.h */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+		A182AFEA0F02DC74007B68D5 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFF10F02DCF2007B68D5 /* cgameentity.cpp */,
+				A182AFF20F02DCF2007B68D5 /* cgameentity.h */,
+			);
+			name = game;
+			sourceTree = "<group>";
+		};
+		A182AFEB0F02DC7B007B68D5 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFF50F02DD05007B68D5 /* ccontrolmanager.cpp */,
+				A182AFF60F02DD05007B68D5 /* ccontrolmanager.h */,
+				A182AFF70F02DD05007B68D5 /* cinputmanager.cpp */,
+				A182AFF80F02DD05007B68D5 /* cinputmanager.h */,
+				A182AFF90F02DD05007B68D5 /* scontrollerdata.h */,
+			);
+			name = input;
+			sourceTree = "<group>";
+		};
+		A182AFEE0F02DC8A007B68D5 /* render */ = {
+			isa = PBXGroup;
+			children = (
+				A182AFFF0F02DD2E007B68D5 /* crendermanager.cpp */,
+				A182B0000F02DD2E007B68D5 /* crendermanager.h */,
+			);
+			name = render;
+			sourceTree = "<group>";
+		};
+		A182AFEF0F02DC91007B68D5 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				A182B0030F02DD3F007B68D5 /* rtc_types.h */,
+			);
+			name = types;
+			sourceTree = "<group>";
+		};
+		A182AFF00F02DCC0007B68D5 /* viewport */ = {
+			isa = PBXGroup;
+			children = (
+				A182B0050F02DD4F007B68D5 /* cviewport.cpp */,
+				A182B0060F02DD4F007B68D5 /* cviewport.h */,
+				A182B0070F02DD4F007B68D5 /* cviewportmanager.cpp */,
+				A182B0080F02DD4F007B68D5 /* cviewportmanager.h */,
+			);
+			name = viewport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC06B0554671400DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A182AFD40F02DC2D007B68D5 /* crtcapplication.h in Headers */,
+				A182AFD60F02DC2D007B68D5 /* crtcframelistener.h in Headers */,
+				A182AFE10F02DC4F007B68D5 /* ccamerahint.h in Headers */,
+				A182AFE20F02DC4F007B68D5 /* ccamerahintmanager.h in Headers */,
+				A182AFE40F02DC4F007B68D5 /* ccameramanager.h in Headers */,
+				A182AFE50F02DC4F007B68D5 /* ccamerashakemanager.h in Headers */,
+				A182AFE70F02DC4F007B68D5 /* cfirstpersoncamera.h in Headers */,
+				A182AFE90F02DC4F007B68D5 /* cgamecamera.h in Headers */,
+				A182AFF40F02DCF2007B68D5 /* cgameentity.h in Headers */,
+				A182AFFB0F02DD05007B68D5 /* ccontrolmanager.h in Headers */,
+				A182AFFD0F02DD05007B68D5 /* cinputmanager.h in Headers */,
+				A182AFFE0F02DD05007B68D5 /* scontrollerdata.h in Headers */,
+				A182B0020F02DD2E007B68D5 /* crendermanager.h in Headers */,
+				A182B0040F02DD3F007B68D5 /* rtc_types.h in Headers */,
+				A182B00A0F02DD4F007B68D5 /* cviewport.h in Headers */,
+				A182B00C0F02DD4F007B68D5 /* cviewportmanager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC06E0554671400DB518D /* rtc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB920108733DBB0010E9CD /* Build configuration list for PBXNativeTarget "rtc" */;
+			buildPhases = (
+				D2AAC06B0554671400DB518D /* Headers */,
+				D2AAC06C0554671400DB518D /* Sources */,
+				D2AAC06D0554671400DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtc;
+			productName = rtc;
+			productReference = D2AAC06F0554671400DB518D /* librtc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB920508733DBB0010E9CD /* Build configuration list for PBXProject "rtc" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* rtc */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC06E0554671400DB518D /* rtc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC06C0554671400DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A182AFD30F02DC2D007B68D5 /* crtcapplication.cpp in Sources */,
+				A182AFD50F02DC2D007B68D5 /* crtcframelistener.cpp in Sources */,
+				A182AFE30F02DC4F007B68D5 /* ccameramanager.cpp in Sources */,
+				A182AFE60F02DC4F007B68D5 /* cfirstpersoncamera.cpp in Sources */,
+				A182AFE80F02DC4F007B68D5 /* cgamecamera.cpp in Sources */,
+				A182AFF30F02DCF2007B68D5 /* cgameentity.cpp in Sources */,
+				A182AFFA0F02DD05007B68D5 /* ccontrolmanager.cpp in Sources */,
+				A182AFFC0F02DD05007B68D5 /* cinputmanager.cpp in Sources */,
+				A182B0010F02DD2E007B68D5 /* crendermanager.cpp in Sources */,
+				A182B0090F02DD4F007B68D5 /* cviewport.cpp in Sources */,
+				A182B00B0F02DD4F007B68D5 /* cviewportmanager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB920208733DBB0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rtc_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = rtcd;
+			};
+			name = Debug;
+		};
+		1DEB920308733DBB0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rtc_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = rtc;
+			};
+			name = Release;
+		};
+		1DEB920608733DBB0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				FRAMEWORK_SEARCH_PATHS = "$(OGRE_HOME)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/include",
+					../..,
+					../../..,
+				);
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/osx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB920708733DBB0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				FRAMEWORK_SEARCH_PATHS = "$(OGRE_HOME)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/include",
+					../..,
+					../../..,
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/osx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB920108733DBB0010E9CD /* Build configuration list for PBXNativeTarget "rtc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB920208733DBB0010E9CD /* Debug */,
+				1DEB920308733DBB0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB920508733DBB0010E9CD /* Build configuration list for PBXProject "rtc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB920608733DBB0010E9CD /* Debug */,
+				1DEB920708733DBB0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

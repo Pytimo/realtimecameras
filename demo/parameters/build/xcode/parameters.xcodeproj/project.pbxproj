@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		A11D68230F6324D8005784E1 /* cparametersapplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11D681E0F6324D8005784E1 /* cparametersapplication.cpp */; };
+		A11D68240F6324D8005784E1 /* cparametersframelistener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11D68200F6324D8005784E1 /* cparametersframelistener.cpp */; };
+		A11D68250F6324D8005784E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11D68220F6324D8005784E1 /* main.cpp */; };
+		A11D68380F6328FE005784E1 /* Cg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11D68370F6328FE005784E1 /* Cg.framework */; };
+		A11D683A0F63291C005784E1 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11D68390F63291C005784E1 /* Ogre.framework */; };
+		A11D683C0F632995005784E1 /* libois.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A11D683B0F632995005784E1 /* libois.a */; };
+		A11D683E0F6329D3005784E1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11D683D0F6329D3005784E1 /* IOKit.framework */; };
+		A11D68560F632DE3005784E1 /* Cg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11D68370F6328FE005784E1 /* Cg.framework */; };
+		A11D695D0F632DFC005784E1 /* Ogre.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11D68390F63291C005784E1 /* Ogre.framework */; };
+		A14C218A0F633AC8009CFE19 /* librtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C21890F633AC3009CFE19 /* librtc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14C21880F633AC3009CFE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11D68160F6323E6005784E1 /* rtc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC06F0554671400DB518D /* librtc.a */;
+			remoteInfo = rtc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A11D684C0F632C53005784E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A11D695D0F632DFC005784E1 /* Ogre.framework in CopyFiles */,
+				A11D68560F632DE3005784E1 /* Cg.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		32DBCF6D0370B57F00C91783 /* parameters_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters_Prefix.pch; sourceTree = "<group>"; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0C4E970486CD37000505A6 /* parameters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parameters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11D68160F6323E6005784E1 /* rtc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rtc.xcodeproj; path = src/build/xcode/rtc.xcodeproj; sourceTree = RTC_PATH; };
+		A11D681E0F6324D8005784E1 /* cparametersapplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cparametersapplication.cpp; path = ../../cparametersapplication.cpp; sourceTree = SOURCE_ROOT; };
+		A11D681F0F6324D8005784E1 /* cparametersapplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cparametersapplication.h; path = ../../cparametersapplication.h; sourceTree = SOURCE_ROOT; };
+		A11D68200F6324D8005784E1 /* cparametersframelistener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cparametersframelistener.cpp; path = ../../cparametersframelistener.cpp; sourceTree = SOURCE_ROOT; };
+		A11D68210F6324D8005784E1 /* cparametersframelistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cparametersframelistener.h; path = ../../cparametersframelistener.h; sourceTree = SOURCE_ROOT; };
+		A11D68220F6324D8005784E1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = SOURCE_ROOT; };
+		A11D68370F6328FE005784E1 /* Cg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cg.framework; sourceTree = OGRE_HOME; };
+		A11D68390F63291C005784E1 /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogre.framework; sourceTree = OGRE_HOME; };
+		A11D683B0F632995005784E1 /* libois.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libois.a; path = lib/Release/libois.a; sourceTree = OGRE_HOME; };
+		A11D683D0F6329D3005784E1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */,
+				A11D68380F6328FE005784E1 /* Cg.framework in Frameworks */,
+				A11D683A0F63291C005784E1 /* Ogre.framework in Frameworks */,
+				A11D683C0F632995005784E1 /* libois.a in Frameworks */,
+				A11D683E0F6329D3005784E1 /* IOKit.framework in Frameworks */,
+				A14C218A0F633AC8009CFE19 /* librtc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E970486CD37000505A6 /* parameters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* parameters */ = {
+			isa = PBXGroup;
+			children = (
+				A11D68160F6323E6005784E1 /* rtc.xcodeproj */,
+				A11D681D0F632485005784E1 /* Header Files */,
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = parameters;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A11D681E0F6324D8005784E1 /* cparametersapplication.cpp */,
+				A11D681F0F6324D8005784E1 /* cparametersapplication.h */,
+				A11D68200F6324D8005784E1 /* cparametersframelistener.cpp */,
+				A11D68210F6324D8005784E1 /* cparametersframelistener.h */,
+				A11D68220F6324D8005784E1 /* main.cpp */,
+				32DBCF6D0370B57F00C91783 /* parameters_Prefix.pch */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A11D683D0F6329D3005784E1 /* IOKit.framework */,
+				A11D683B0F632995005784E1 /* libois.a */,
+				A11D68390F63291C005784E1 /* Ogre.framework */,
+				A11D68370F6328FE005784E1 /* Cg.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		A11D681D0F632485005784E1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A14C21850F633AC3009CFE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14C21890F633AC3009CFE19 /* librtc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* parameters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "parameters" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+				A11D684C0F632C53005784E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parameters;
+			productInstallPath = "$(HOME)/Applications";
+			productName = parameters;
+			productReference = 8D0C4E970486CD37000505A6 /* parameters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "parameters" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* parameters */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A14C21850F633AC3009CFE19 /* Products */;
+					ProjectRef = A11D68160F6323E6005784E1 /* rtc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D0C4E890486CD37000505A6 /* parameters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A14C21890F633AC3009CFE19 /* librtc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = librtc.a;
+			remoteRef = A14C21880F633AC3009CFE19 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11D68230F6324D8005784E1 /* cparametersapplication.cpp in Sources */,
+				A11D68240F6324D8005784E1 /* cparametersframelistener.cpp in Sources */,
+				A11D68250F6324D8005784E1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E91AC608A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OGRE_HOME)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = parameters_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OGRE_HOME)/lib/Release\"";
+				PRODUCT_NAME = parameters;
+				SYMROOT = "$(RTC_PATH)/bin/osx";
+			};
+			name = Debug;
+		};
+		C0E91AC708A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OGRE_HOME)\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = parameters_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OGRE_HOME)/lib/Release\"";
+				PRODUCT_NAME = parameters;
+				SYMROOT = "$(RTC_PATH)/bin/osx";
+			};
+			name = Release;
+		};
+		C0E91ACA08A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				FRAMEWORK_SEARCH_PATHS = "$(OGRE_HOME)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/include",
+					"$(RTC_PATH)/src",
+				);
+				LIBRARY_SEARCH_PATHS = "$(OGRE_HOME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C0E91ACB08A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				FRAMEWORK_SEARCH_PATHS = "$(OGRE_HOME)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/include",
+					"$(RTC_PATH)/src",
+				);
+				LIBRARY_SEARCH_PATHS = "$(OGRE_HOME)";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E91AC508A95435008D54AB /* Build configuration list for PBXNativeTarget "parameters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91AC608A95435008D54AB /* Debug */,
+				C0E91AC708A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "parameters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91ACA08A95435008D54AB /* Debug */,
+				C0E91ACB08A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}
