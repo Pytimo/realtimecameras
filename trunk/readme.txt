@@ -1,6 +1,6 @@
-===
+============
 Introduction
-===
+============
 
 This is the source code accompaniment to the book "Real Time Cameras" by Mark Haigh-Hutchinson.
 
@@ -10,9 +10,9 @@ http://code.google.com/p/realtimecameras/
 The web site for the book is:
 http://www.realtimecameras.com
 
-===
+=======
 License
-===
+=======
 
 This code is protected under the MIT License.
 
