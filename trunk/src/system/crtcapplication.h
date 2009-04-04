@@ -74,8 +74,9 @@ protected:
     Ogre::Root            * mpRoot;
     Ogre::SceneManager    * mpSceneMgr;
     Ogre::RenderWindow    * mpWindow;
-	Ogre::String            mRTCPath;
+	 Ogre::String            mRTCPath;
     Ogre::String            mResourcePath;
+    Ogre::String            mOGREResourcePath;
 };
 
 
