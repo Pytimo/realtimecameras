@@ -19,14 +19,12 @@ CRtcApplication::CRtcApplication()
 ,mpWindow       ( NULL )
 ,mRTCPath       ( )
 ,mResourcePath  ( )
+,mOGREResourcePath()
 {
-	// Provide a nice cross platform solution for locating the configuration files
-	// On windows files are searched for in the current working directory, on OS X however
-	// you must provide the full path, the helper function macBundlePath does this for us.
-#if OGRE_PLATFORM == OGRE_PLATFORM_APPLE
     mRTCPath = getenv( skRTCEnvironmentName );
     mResourcePath = mRTCPath + "/resources/";
-#endif
+
+    mOGREResourcePath = getenv( "OGRE_HOME" );
 }
 //------------------------------------------------------------------------------------------
 CRtcApplication::~CRtcApplication()
@@ -133,14 +131,12 @@ void CRtcApplication::setupResources()
         {
             typeName = i->first;
             archName = i->second;
-#if OGRE_PLATFORM == OGRE_PLATFORM_APPLE
-            // OS X does not set the working directory relative to the app,
-            // In order to make things portable on OS X we need to provide
-            // the loading with it's own bundle path location
-            ResourceGroupManager::getSingleton().addResourceLocation( String(mRTCPath + "/" + archName), typeName, secName);
-#else
-            ResourceGroupManager::getSingleton().addResourceLocation(archName, typeName, secName);
-#endif
+            ResourceGroupManager::getSingleton().addResourceLocation( String(mOGREResourcePath + "/" + archName), typeName, secName);
+
+            if ( typeName == "FileSystem" )
+            {
+               ResourceGroupManager::getSingleton().addResourceLocation( String(mResourcePath + archName), typeName, secName);
+            }
         }
     }
 }
