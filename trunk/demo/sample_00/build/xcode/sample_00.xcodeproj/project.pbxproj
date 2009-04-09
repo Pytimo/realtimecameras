@@ -22,11 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A148FF170F8DD66900C32DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A121D75C0F4BCFDD008508A3 /* rtc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC06E0554671400DB518D;
+			remoteInfo = rtc;
+		};
 		A14C21A90F633ADE009CFE19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A121D75C0F4BCFDD008508A3 /* rtc.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC06F0554671400DB518D /* librtc.a */;
+			remoteGlobalIDString = D2AAC06F0554671400DB518D;
 			remoteInfo = rtc;
 		};
 /* End PBXContainerItemProxy section */
@@ -165,6 +172,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A148FF180F8DD66900C32DB5 /* PBXTargetDependency */,
 			);
 			name = sample_00;
 			productInstallPath = "$(HOME)/Applications";
@@ -228,6 +236,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A148FF180F8DD66900C32DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = rtc;
+			targetProxy = A148FF170F8DD66900C32DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
@@ -304,7 +320,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/Ogre.framework/Headers",
 					"$(OGRE_HOME)/include",
 					"$(RTC_PATH)/src",
 				);
@@ -324,7 +340,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(OGRE_HOME)/Ogre.framework/Headers/**",
+					"$(OGRE_HOME)/Ogre.framework/Headers",
 					"$(OGRE_HOME)/include",
 					"$(RTC_PATH)/src",
 				);
